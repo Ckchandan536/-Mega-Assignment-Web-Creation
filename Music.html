@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Static Web Page/Music</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      #grid {
+        display: grid;
+        grid-template-columns: 40% 50% 45%;
+        margin-bottom: -5px;
+      }
+      #left {
+        display: inline-block;
+        font-weight: bold;
+        color: black;
+      }
+      #center {
+        display: inline-block;
+        font-weight: bold;
+        color: black;
+      }
+      #right {
+        display: inline-block;
+        font-weight: bold;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar starts from here -->
+    <nav class="navbar navbar-expand-sm">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 px-4">
+            <li class="nav-item">
+              <a
+                class="nav-link text-primary font-weight-bold"
+                aria-current="page"
+                href="/index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-primary font-weight-bold"
+                href="Attractions.html"
+                target="_blank"
+                >Attractions</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-primary font-weight-bold"
+                href="Music.html"
+                >Music</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-primary font-weight-bold"
+                href="Food.html"
+                target="_blank"
+                >Food</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar ends here  -->
+    <div class="container-fluid">
+      <ul class="list-group">
+        <li class="list-group-item list-group-item-primary">
+          <div id="grid">
+            <p id="left">Artist</p>
+            <p id="center">Song</p>
+            <p id="right">Year</p>
+          </div>
+        </li>
+        <li class="list-group-item list-group-item-secondary">
+          <div id="grid">
+            <p>Thin Lizzy</p>
+            <p>The Boys Are Back In Town</p>
+            <p>1976</p>
+          </div>
+        </li>
+        <li class="list-group-item list-group-item-danger">
+          <div id="grid">
+            <p>Sinead O'Connar</p>
+            <p>Nothing Compares 2 U</p>
+            <p>1990</p>
+          </div>
+        </li>
+        <li class="list-group-item list-group-item-success">
+          <div id="grid">
+            <p>The Cranberries</p>
+            <p>Linger</p>
+            <p>1994</p>
+          </div>
+        </li>
+        <li class="list-group-item list-group-item-warning">
+          <div id="grid">
+            <p>Snow Patrol</p>
+            <p>Chasing Cars</p>
+            <p>2006</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
